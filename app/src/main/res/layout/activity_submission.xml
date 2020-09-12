@@ -57,7 +57,7 @@
             android:layout_height="wrap_content"
             android:text="Project Submission"
             android:textColor="@color/colorAccent"
-            android:textSize="40dp"
+            android:textSize="30dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/appBarLayout" />
