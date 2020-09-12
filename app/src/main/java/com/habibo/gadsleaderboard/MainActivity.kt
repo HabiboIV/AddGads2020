@@ -25,10 +25,7 @@ class MainActivity : AppCompatActivity() {
         val tabs: TabLayout = findViewById(R.id.tabs)
         tabs.setupWithViewPager(viewPager)
 
-        val submissionBtn = findViewById<Button>(R.id.action_submission)
-        submissionBtn.setOnClickListener {
-            goToSubmissionActivity()
-        }
+        findViewById<Button>(R.id.action_submission).setOnClickListener { goToSubmissionActivity() }
 
     }
 }

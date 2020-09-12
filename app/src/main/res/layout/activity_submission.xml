@@ -116,12 +116,24 @@
             android:layout_marginEnd="32dp"
             android:background="#FFFFFF"
             android:inputType="textEmailAddress"
-            android:text="yur1m4nuel@gmail.com"
+            android:text="https://github.com/HabiboIV/AddGads2020"
             android:textAlignment="center"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
 
+
+        <Button
+            android:id="@+id/action_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:backgroundTint="@color/colorAccent"
+            android:text="Submit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextGithubLink" />
 
 
 
