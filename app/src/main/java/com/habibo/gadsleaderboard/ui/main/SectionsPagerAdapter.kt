@@ -25,7 +25,7 @@ class SectionsPagerAdapter(private val context: Context, fm: FragmentManager) :
         if (position == 0) {
             return LearningLeadersFragment()
         }
-        return SkillLeadersFragment()
+        return SkillLeaderFragment()
     }
 
     override fun getPageTitle(position: Int): CharSequence? {

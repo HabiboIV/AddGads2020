@@ -2,11 +2,11 @@ package com.habibo.gadsleaderboard.model
 
 import com.google.gson.annotations.SerializedName
 
-class SkillParticipant(
+class SkillLeader(
     @SerializedName("name")
     var name: String,
     @SerializedName("score")
-    var hours: Int,
+    var score: Int,
     @SerializedName("country")
     var country: String,
     @SerializedName("badgeUrl")

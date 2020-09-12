@@ -1,7 +1,7 @@
 package com.habibo.gadsleaderboard.retrofit
 
 import com.habibo.gadsleaderboard.model.LearningParticipant
-import com.habibo.gadsleaderboard.model.SkillParticipant
+import com.habibo.gadsleaderboard.model.SkillLeader
 import retrofit2.Call
 import retrofit2.http.*
 
@@ -11,6 +11,6 @@ interface LeaderboardApiList {
     fun fetchLearningLeaders(): Call<List<LearningParticipant>>
 
     @GET("api/skilliq")
-    fun fetchSkillLeaders(): Call<List<SkillParticipant>>
+    fun fetchSkillLeaders(): Call<List<SkillLeader>>
 
 }
